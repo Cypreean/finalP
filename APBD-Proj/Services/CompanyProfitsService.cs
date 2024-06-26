@@ -29,7 +29,7 @@ public class CompanyProfitsService ( DatabaseContext context) : ICompanyProfitsS
     public async Task<decimal> GetCompanyProfits(ProfitRequestModel profitRequestModel)
     {
         
-        // if productid is 0 return total profits if not return profits for that product if exists
+       
         
         if (profitRequestModel.SoftwareId == 0)
         {
